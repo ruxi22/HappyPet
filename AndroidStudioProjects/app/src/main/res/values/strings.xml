@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HappyPet</string>
+    <string name="animal_type">Animal Type</string>
+    <string name="enter_pet_name">Enter pet name</string>
+    <string name="enter_pet_age">Enter pet age</string>
+    <string name="enter_pet_breed">Enter pet breed</string>
+    <string name="save_button">Save</string>
+    <string name="view_saved_pets_button">View Saved Pets</string>
+    <string name="saved_pets_scroll_view">List of saved pets</string>
+    <string name="saved_pets_list_desc">This shows the list of pets you have saved</string>
+    <string name="hint_custom_pet_type">Enter custom pet type</string>
+    <string name="hint_custom_pet_name">Enter custom pet name</string>
+    <string name="button_save_custom_pet">Save Custom Pet</string>
+    <string name="login_button_text">Log in</string>
+    <string name="email_hint">Email</string>
+    <string name="pet_name">Pet Name</string>
+    <string name="age">Age</string>
+    <string name="breed_species">Breed/Species</string>
+    <string name="log_out">Log Out</string>
+    <string name="animal_type_label">Animal Type: %1$s</string>
+    <string name="pet_name_hint">Pet Name</string>
+    <string name="pet_age_hint">Pet Age</string>
+    <string name="pet_breed_species_hint">Breed/Species</string>
+    <string name="save">Save</string>
+    <string name="view_saved_pets">View Saved Pets</string>
+
+</resources>
+
+

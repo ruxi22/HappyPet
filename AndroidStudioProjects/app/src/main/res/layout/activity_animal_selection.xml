@@ -1,0 +1,127 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/choose_pet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Pet"
+        android:textSize="24sp"
+        android:fontFamily="@font/barrio"
+        android:textColor="@color/your_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:gravity="center" />
+
+    <!-- Dog and Cat Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_dog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_dog"
+            android:contentDescription="Dog"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/icon_cat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_cat"
+            android:contentDescription="Cat"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <!-- Bird and Fish Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_bird"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_bird"
+            android:contentDescription="Bird"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/icon_fish"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_fish"
+            android:contentDescription="Fish"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <!-- Rabbit Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_rabbit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_rabbit"
+            android:contentDescription="Rabbit"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:id="@+id/icon_hamster"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_hamster"
+            android:contentDescription="Hamster"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+
+    <!-- Turtle, Hamster, and Reptile Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_turtle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_turtle"
+            android:contentDescription="Turtle"
+            android:layout_margin="8dp" />
+
+
+        <ImageView
+            android:id="@+id/icon_reptile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_reptile"
+            android:contentDescription="Reptile"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+    <!-- Add Custom Pet Button -->
+    <Button
+        android:id="@+id/add_custom_pet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Custom Pet"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
